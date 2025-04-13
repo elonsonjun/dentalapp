@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmileNest Dental</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SmileNest Dental</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#science">Dental Science</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <h2>Your Smile, Our Passion</h2>
+      <p>Delivering world-class dental care with a gentle touch.</p>
+      <button onclick="openModal()">Book Now</button>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h3>About SmileNest</h3>
+      <p>
+        SmileNest Dental was founded with a vision to transform lives through confident smiles. With over 20 years of excellence,
+        our facility brings together cutting-edge technology and compassionate care under one roof. We specialize in procedures like implants, cosmetic makeovers, invisible braces, and pediatric dentistry. We ensure accuracy and comfort using digital X-rays, intraoral scanners, and AI diagnostics.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <h3>Our Dental Services</h3>
+      <div class="cards">
+        <div class="card"><h4>Teeth Cleaning</h4><p>Prevent gum disease and plaque buildup with regular cleanings.</p></div>
+        <div class="card"><h4>Root Canal</h4><p>Save damaged teeth with precision endodontic treatment.</p></div>
+        <div class="card"><h4>Implants</h4><p>Natural-looking, durable replacements for missing teeth.</p></div>
+        <div class="card"><h4>Smile Makeover</h4><p>Whitening, alignment, and bonding to enhance your smile.</p></div>
+        <div class="card"><h4>Invisalign</h4><p>Clear aligners for a straighter smile without braces.</p></div>
+        <div class="card"><h4>Pediatric Dentistry</h4><p>Friendly dental care for children and teens.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="doctors">
+    <div class="container">
+      <h3>Meet Our Dentists</h3>
+      <div class="cards">
+        <div class="card doctor-card">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Dr. Alice" />
+          <h4>Dr. Alice</h4>
+          <p>Orthodontist | 10+ years experience</p>
+        </div>
+        <div class="card doctor-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. Asher " />
+          <h4>Dr. Asher</h4>
+          <p>Cosmetic Dentistry Specialist</p>
+        </div>
+        <div class="card doctor-card">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Blessy " />
+          <h4>Dr. Blessy</h4>
+          <p>Pediatric Dentist</p>
+        </div>
+        <div class="card doctor-card">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Dr. Christopher " />
+          <h4>Dr. Christopher</h4>
+          <p>Implant Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <h3>What Our Patients Say</h3>
+      <div class="testimonials-wrapper">
+        <div class="testimonials" id="testimonialSlider">
+          <div class="testimonial"><p>"Best dental experience ever!"</p><div class="stars">★★★★★</div><p class="author">– Aarti Kapoor</p></div>
+          <div class="testimonial"><p>"Professional and friendly team."</p><div class="stars">★★★★☆</div><p class="author">– Vikram Joshi</p></div>
+          <div class="testimonial"><p>"Kids love visiting here!"</p><div class="stars">★★★★★</div><p class="author">– Meena D'Souza</p></div>
+          <div class="testimonial"><p>"I got my implants done here — completely painless!"</p><div class="stars">★★★★★</div><p class="author">– Raj Malhotra</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="science">
+    <div class="container">
+      <h3>Explore Dental Science</h3>
+      <div class="science-content">
+        <div class="science-topic">
+          <img src="https://cdn.pixabay.com/photo/2016/10/30/05/38/dental-1788045_960_720.jpg" alt="Tooth Anatomy">
+          <h4>Anatomy of a Tooth</h4>
+          <p>Learn about enamel, dentin, pulp, and their role in dental health.</p>
+        </div>
+        <div class="science-topic">
+          <img src="https://cdn.pixabay.com/photo/2021/07/12/10/37/toothbrush-6404601_960_720.jpg" alt="Oral Hygiene">
+          <h4>Oral Hygiene Techniques</h4>
+          <p>Brush, floss, and rinse correctly to maintain a healthy smile.</p>
+        </div>
+        <div class="science-topic">
+          <img src="https://cdn.pixabay.com/photo/2020/06/10/20/38/tooth-5283043_960_720.jpg" alt="Innovations in Dentistry">
+          <h4>Innovations in Dentistry</h4>
+          <p>Discover how lasers, digital X-rays, and 3D printing improve dentistry.</p>
+        </div>
+        <div class="science-topic">
+          <img src="https://cdn.pixabay.com/photo/2016/11/29/09/20/dentist-1864921_960_720.jpg" alt="Checkups">
+          <h4>Importance of Regular Checkups</h4>
+          <p>Early detection and prevention help ensure lifelong oral health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-item">
+        <button class="faq-question">What is the best way to maintain oral hygiene?</button>
+        <div class="faq-answer">Brush twice daily, floss regularly, use mouthwash, and visit your dentist every 6 months.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How often should I visit the dentist?</button>
+        <div class="faq-answer">It’s recommended to have a dental check-up and cleaning every 6 months.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Are electric toothbrushes better than manual ones?</button>
+        <div class="faq-answer">Electric toothbrushes can be more effective at reducing plaque and gum disease when used properly.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What causes tooth sensitivity?</button>
+        <div class="faq-answer">Tooth sensitivity is often caused by worn enamel, exposed roots, cavities, or gum disease.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Is teeth whitening safe?</button>
+        <div class="faq-answer">Yes, when done correctly under the supervision of a dentist.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">At what age should children start seeing a dentist?</button>
+        <div class="faq-answer">By their first birthday or within 6 months of their first tooth appearing.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <p><strong>Address:</strong> 3rd stage HSR layout, Bangalore City</p>
+      <p><strong>Email:</strong> info@smilenest.com</p>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+    </div>
+  </section>
+
+  <div id="appointmentModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3>Book Your Appointment</h3>
+      <form id="appointmentForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <input type="date" required />
+        <textarea placeholder="What service do you need?" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="appointmentMsg"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SmileNest Dental. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- Chatbase Widget -->
+  <script>
+    (function(){
+      if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+        window.chatbase = (...arguments) => {
+          if(!window.chatbase.q){ window.chatbase.q = [] }
+          window.chatbase.q.push(arguments)
+        };
+        window.chatbase = new Proxy(window.chatbase, {
+          get(target, prop) {
+            if(prop === "q") return target.q;
+            return (...args) => target(prop, ...args);
+          }
+        });
+      }
+      const onLoad = function() {
+        const script = document.createElement("script");
+        script.src = "https://www.chatbase.co/embed.min.js";
+        script.id = "_-GbmIDNBa9rq_SR5Pq69";
+        script.domain = "www.chatbase.co";
+        document.body.appendChild(script);
+      };
+      if(document.readyState === "complete") {
+        onLoad();
+      } else {
+        window.addEventListener("load", onLoad);
+      }
+    })();
+  </script>
+</body>
+</html>
